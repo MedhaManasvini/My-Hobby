@@ -1,47 +1,76 @@
-img{
-  height: 200px;
-  width: auto;
-  border: inset;
-  border-color: #FF6D00;
+img {
+    height: 200px;
+    width: auto;
+    border: inset;
+    border-color: #FF6D00;
 }
-.menu{
-  list-style: none;
-  position: fixed;
-  top: 10px;
-  right: 30px;
-  cursor: pointer;
-  z-index: 10;
+
+h1 {
+    text-shadow: 2px 2px #84FFFF;
+    color: #1A237E;
 }
-h1{
-  text-shadow: 2px 2px #84FFFF;
-  color: #1A237E;
+
+h2 {
+    text-shadow: 2px 2px #E1BEE7;
+    color: #C2185B;
 }
-h2{
-  text-shadow: 2px 2px #E1BEE7;
-  color: #C2185B;
+
+.section1 {
+    background-image: linear-gradient(#69F0AE, #F4FF81);
+    background-repeat: no-repeat;
+    text-align: center;
 }
-.section1{
-  background-image: linear-gradient(#69F0AE, #F4FF81);
-  background-repeat: no-repeat;
-  text-align: center;
+
+p {
+    color: white;
+    font-size: 20px
 }
-p{
-  color: white;
-  font-size: 20px
+
+.section2 {
+    background-image: linear-gradient(#B388FF, #EA80FC);
+    background-repeat: no-repeat;
+    text-align: center;
 }
-.section2{
-  background-image: linear-gradient(#B388FF , #EA80FC );
-  background-repeat: no-repeat;
-  text-align: center;
+
+body {
+    background-color: #A7FFEB;
+    font-family: cursive;
 }
-body{
-  background-color: #A7FFEB;
-  font-family: cursive;
+
+ul {
+    color: #673AB7;
+    font-family: 'Sriracha', cursive;
 }
-ul{
-  color: #673AB7;
-  font-family: 'Sriracha', cursive;
-}
+
 .list:hover {
     background-color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: coral;
+    text-decoration: 2px 2px gainsboro;
+}
+.list{
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+#conatct iframe{
+    width: 100%;
 }
