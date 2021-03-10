@@ -4,6 +4,14 @@ img{
   border: inset;
   border-color: #FF6D00;
 }
+.menu{
+  list-style: none;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
 h1{
   text-shadow: 2px 2px #84FFFF;
   color: #1A237E;
